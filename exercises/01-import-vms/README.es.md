@@ -29,12 +29,12 @@ Antes de comenzar la configuración de red, necesitas tener disponibles **dos m�
         ![Confirmación de configuración de maquina virtual importada](../../.learn/assets/vbox-import-confirm.png)
 
 03. **Ejecuta tu nueva máquina virtual:** Una vez termine el proceso de importación, estas listo para arrancar tu nueva máquina Debian. La máquina ya viene configurada con claves de acceso, pero como buen estudiante de ciberseguridad, sabes que deberías cambiarlas por alguna más segura.
-
-        > **Información de acceso**<br>
+    ```bash
+        **Información de acceso**<br>
         **Usuario**: debian<br>
         **Clave**: 123456<br>
         **ClaveRoot**: 123456
-
+    ```
 
 ## Importar Windows
 
