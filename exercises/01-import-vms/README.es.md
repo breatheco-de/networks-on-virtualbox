@@ -13,12 +13,12 @@ Antes de comenzar la configuración de red, necesitas tener disponibles **dos m�
 
 02. **Abre el archivo OVA:** Una vez descargado el archivo, haz doble clic sobre él. Esto abrirá automáticamente VirtualBox y mostrará el **asistente de importación** con todos los detalles de la máquina.
 
-        Si por algún motivo **VirtualBox no se abre automáticamente**, también puedes hacer la importación manual:
+    Si por algún motivo **VirtualBox no se abre automáticamente**, también puedes hacer la importación manual:
 
-        1. Abre VirtualBox.
-        2. Dirígete a `Archivo` > `Importar servicio virtualizado...`.
-        3. Selecciona el archivo `.ova` que descargaste.
-        4. Haz clic en `Siguiente` y luego en `Importar` para confirmar.
+    1. Abre VirtualBox.
+    2. Dirígete a `Archivo` > `Importar servicio virtualizado...`.
+    3. Selecciona el archivo `.ova` que descargaste.
+    4. Haz clic en `Siguiente` y luego en `Importar` para confirmar.
 
         ### Importar archivo OVA
 
