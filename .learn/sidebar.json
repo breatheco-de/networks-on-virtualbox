@@ -1,0 +1,20 @@
+{
+  "00-welcome": {
+    "us": "00-welcome"
+  },
+  "01-import-debian-vm": {
+    "us": "01-import-debian-vm"
+  },
+  "02-create-nat-network": {
+    "us": "02-create-nat-network"
+  },
+  "03-configure-vms-interfaces": {
+    "us": "03-configure-vms-interfaces"
+  },
+  "04-test-connection": {
+    "us": "04-test-connection"
+  },
+  "05-Verify-Configuration": {
+    "us": "05-Verify-Configuration"
+  }
+}
