@@ -7,11 +7,11 @@ Antes de comenzar la configuración de red, necesitas tener disponibles **dos m�
 
 ## Importar Debian
 
-- 01. **Descarga el archivo OVA:** Este archivo contiene una imagen completa del sistema operativo Debian, con su disco virtual y configuraciones listas para su ejecución. [Descarga aquí](https://storage.googleapis.com/breathecode/virtualbox/deb.ova).
+01. **Descarga el archivo OVA:** Este archivo contiene una imagen completa del sistema operativo Debian, con su disco virtual y configuraciones listas para su ejecución. [Descarga aquí](https://storage.googleapis.com/breathecode/virtualbox/deb.ova).
 
 
 
-- 02. **Abre el archivo OVA:** Una vez descargado el archivo, haz doble clic sobre él. Esto abrirá automáticamente VirtualBox y mostrará el **asistente de importación** con todos los detalles de la máquina.
+02. **Abre el archivo OVA:** Una vez descargado el archivo, haz doble clic sobre él. Esto abrirá automáticamente VirtualBox y mostrará el **asistente de importación** con todos los detalles de la máquina.
 
         Si por algún motivo **VirtualBox no se abre automáticamente**, también puedes hacer la importación manual:
 
@@ -28,7 +28,7 @@ Antes de comenzar la configuración de red, necesitas tener disponibles **dos m�
 
         ![Confirmación de configuración de maquina virtual importada](../../.learn/assets/vbox-import-confirm.png)
 
-- 03. **Ejecuta tu nueva máquina virtual:** Una vez termine el proceso de importación, estas listo para arrancar tu nueva máquina Debian. La máquina ya viene configurada con claves de acceso, pero como buen estudiante de ciberseguridad, sabes que deberías cambiarlas por alguna más segura.
+03. **Ejecuta tu nueva máquina virtual:** Una vez termine el proceso de importación, estas listo para arrancar tu nueva máquina Debian. La máquina ya viene configurada con claves de acceso, pero como buen estudiante de ciberseguridad, sabes que deberías cambiarlas por alguna más segura.
 
         > **Información de acceso**<br>
         **Usuario**: debian<br>
