@@ -22,23 +22,26 @@ Para asegurar el exito del script `report_windows.bat` es posible que necesites 
     * En la sección `Variables del sistema`, busca y selecciona la variable `Path`, y luego haz clic en Editar....
     * En la ventana `Editar variable de entorno`, haz clic en `Nuevo` e inserta la ruta que copiaste `C:\Program Files\Oracle\VirtualBox``.
     * Finalmente, haz clic en Aceptar para cerrar todas las ventanas.
-    * Para verificar que hemos hecho estos pasos con exito, abre la linea de comando  y escribe `VBoxManage --version`.
+    * Para verificar que hemos hecho estos pasos con exito, abre la linea de comando  y escribe: 
+
+        ```bash
+        VBoxManage --version
+        ```
 
 ## 2. Ejecuta el archivo `report_windows.bat`
 
-Si pegaste el archivo `report_windows.bat` en el ./Escritorio de tu máquina anfitriona, ejecutalo y luego copia el archivo "windows_report.txt" que genera y pegalo en la raíz de estos ejercicios para su validación. 
+* Si pegaste el archivo `report_windows.bat` en el ./Escritorio de tu máquina anfitriona haz doble clic para ejecutarlo. 
+* Copia el archivo `windows_report.txt` que genera y pegalo en la raíz de estos ejercicios para su validación. 
 
-> ⚠ El archivo "windows_report.txt" debe estar en el mismo nivel del archivo `learn.json`.
+> ⚠️  El archivo "windows_report.txt" debe estar en el mismo nivel del archivo `learn.json`.
 
 
 ## 3. Ejecutar la prueba
 
-Una vez que hayas pegado el archivo windows_report.txt en la raíz de los ejercicios de LearnPack, puedes ejecutar la prueba para validar tu instalación de Linux y Windows en VirtualBox.
+Una vez que hayas pegado el archivo `windows_report.txt` en la raíz de los ejercicios de LearnPack, puedes ejecutar la prueba para validar tu instalación de Linux y Windows en VirtualBox.
 
-![Script Windows](https://raw.githubusercontent.com/breatheco-de/networks-on-virtualbox/master/.learn/assets/script-test.png)
+## 4. ¡Todo listo!
 
-## 4. ¡Hecho!
-
-Si pasaste las pruebas, ya has instalado una máquina virtual con Windows. Este será tu lugar seguro para hacer experimentos y pruebas durante el curso.
+Si ves el mensaje de que pasaste las pruebas, ¡felicidades!. Ya tienes un entorno virtualizado funcional con `Windows` y `Debian`, conectado mediante una **red NAT**. Este entorno será tu espacio seguro para experimentar durante el curso.
 
 Si tienes algún problema, no dudes en contactar a un mentor o a los otros canales de soporte ofrecidos por 4Geeks.

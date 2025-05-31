@@ -37,7 +37,7 @@ function validateVMs(configPath) {
   machines.forEach(machine => {
     const osType = machine.ostype?.toLowerCase() || '';
 
-    // Prioriza nat_network1, pero si no existe, usa nat-network1
+    // Prioritize nat_network1, but if it doesn't exist, use nat-network1
     const natNetworkKey = machine['nat_network1'] || machine['nat-network1'];
 
     if (osType.includes('windows')) {

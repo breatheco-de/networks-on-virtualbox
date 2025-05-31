@@ -1,23 +1,32 @@
-# `04` Testing the connection
+# `04` Testing the Connection
 
-Once inside each virtual machine, we can see that the interfaces are shown as normal computer connections.
+Once inside each virtual machine, you can see that the interfaces appear as normal connections on a computer.
 
-If you check the IP addresses of each one, you can see that they are in the same IP range. For them run the following commands in the terminals of each system.
+If you check the IP addresses of each one, you can confirm that they are in the same IP range. To do this, run the following commands in the terminals of each system.
 
 > **On Windows**: `ipconfig`
-![IP settings on Windows](../../.learn/assets/vbox-win-ip-config.png)
+![IP Configuration on Windows](../../.learn/assets/vbox-win-ip-config.png)
 
 > **On Debian**: `ip addr`
-![IP settings on Debian](../../.learn/assets/vbox-deb-ip-addr.png)
+![IP Configuration on Debian](../../.learn/assets/vbox-deb-ip-addr.png)
 
-Once the addresses are verified you can perform a `ping` test to verify connectivity between the two machines. The command is identical on Windows and Debian, just follow it with the IP address of the machine you want to test connection with. 
+## Connectivity Test (`ping`)
 
-For example, below you can see how 2 virtual machines can `ping` each other.
+Once you have verified the addresses, you can perform a `ping` test to check connectivity between both machines. The command is identical in Windows and Debian; you just need to follow it with the IP address of the machine you want to test the connection with.
 
-> `ping 10.0.2.4`
+For example, below you can see how 2 virtual machines can ping each other.
+
+```bash
+ping 10.0.2.15 # IP address of the Debian machine
+``` 
 ![Ping on Debian](../../.learn/assets/vbox-deb-ping-test.png)
 
-> `ping 10.0.2.15`
-![Ping on Debian](../../.learn/assets/vbox-win-ping-test.png)
 
-> By default, there is something in Windows that does not allow it to respond to the ping request received by the machine. Find out what it is and disable it to be able to test.
+```bash
+ping 10.0.2.4 # IP address of the Windows machine
+```
+![Ping on Windows](../../.learn/assets/vbox-win-ping-test.png)
+
+### ⚠️ Important Note for Windows
+
+By default, there is something in Windows that prevents it from responding to ping requests received by the machine. Find out what it is and disable it to perform the test.
