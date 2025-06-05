@@ -1,12 +1,28 @@
-# `03` Configuración de interfaces 
+# `03` Configuración de interfaces de red
 
-A continuación debes agregar las interfaces a las máquinas virtuales y asignarles la red NAT que acabas de crear en el paso anterior.
+Ahora que creaste tu Red NAT (`NatNetwork`), el siguiente paso es **conectar ambas máquinas virtuales a esa red** a través de su adaptador de red principal.
 
-En la ventana de configuración de cada máquina, podrás ver la izquierda la opción de `"Red"`. Ahi encontrarás las interfaces (también llamados `Adaptadores`) que puedes tener en tu máquina y la pestaña de configuración que corresponde a cada una.
 
-En la opción `Conectado a:` debes escoger `Red NAT` para luego especificar a cuál red formará parte esta máquina.
 
-La configuración debe quedar de la siguiente manera:
+Instrucciones para cada máquina virtual
+
+1. En VirtualBox, **selecciona una de tus máquinas (Debian o Windows)** y haz clic en el botón `Configuración`.
+2. En el panel lateral izquierdo, selecciona la categoría `Red`.
+3. Asegúrate de que la pestaña **Adaptador 1** esté habilitada (casilla "Habilitar adaptador de red").
+4. En el campo `Conectado a:` selecciona la opción **Red NAT**.
+5. En el campo `Nombre de la red`, selecciona la red que creaste previamente, por ejemplo: `NatNetwork`.
+
+> 🔁 Repite exactamente los mismos pasos para la **otra máquina virtual**.
+
+
+
+### Ejemplo de configuración correcta de interfaz NAT
+
 ![Configuración de red NAT](../../.learn/assets/vbox-vm-nat-network.png)
 
-> Recuerda debes hacer lo mismo para ambas máquinas
+
+## ⚠️ A tener en cuenta
+
+- Debes realizar esta configuración en **ambas máquinas** (Windows y Debian).
+- El nombre de la red debe coincidir exactamente con el nombre definido en el paso anterior (`NatNetwork` u otro que hayas usado).
+- La conexión solo funcionará si ambas máquinas están encendidas y correctamente conectadas a la **misma red NAT**.
