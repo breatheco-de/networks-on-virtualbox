@@ -5,19 +5,21 @@
 	},
 	"preview": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/.learn/assets/preview.png?raw=true",
 	"description": {
-		"us": "Create a network between 2 virtual machines and with access to the external network. Perform tests to validate the connection.",
-		"es": "Crea una red entre 2 máquinas virtuales y con acceso a la red externa. Realiza pruebas para validar la conexión."
+		"us": "Set up a network between two virtual machines with access to an external network. Test and validate the connection to ensure both machines communicate with each other and the internet. This project helps you understand network configurations on VirtualBox and practice essential networking skills.",
+		"es": "Configura una red entre dos máquinas virtuales con acceso a una red externa. Prueba y valida la conexión para asegurar que ambas máquinas se comuniquen entre sí y con internet. Este proyecto te ayuda a entender las configuraciones de red en VirtualBox y a practicar habilidades esenciales de redes."
 	},
 	"repository": "https://github.com/4GeeksAcademy/networks-on-virtualbox",
 	"duration": 5,
 	"difficulty": "beginner",
 	"projectType": "tutorial",
+	"autoPlay": "true",
+	"template_url": "self",
 	"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 	"technologies": ["networks", "redes", "cybersecurity", "ciberseguridad"],
 	"localhostOnly": true,
 	"telemetry": {
-		"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
-	},
+	    	"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=1572"
+	  },
 	"delivery": {
 		"formats": ["no_delivery"]
 	}
